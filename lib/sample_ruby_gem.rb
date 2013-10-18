@@ -53,6 +53,10 @@ MY_URI_HOST = MY_URI.host
 
 puts URI::LDAP
 
+require 'ipaddr'
+ip = IPAddr.new('127.0.0.1')
+puts ip.reverse
+
 MY_SAMPLE = Sample.new(3)
 my_sample = MY_SAMPLE
 my_sample.my_method('a arg', 'b arg')
