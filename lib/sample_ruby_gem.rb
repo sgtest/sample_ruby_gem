@@ -29,7 +29,6 @@ class Sample
   end
 
   def my_method(a, b)
-    # doc for Sample.my_method
     c = 3
     b = 'four'
     l = b.length
