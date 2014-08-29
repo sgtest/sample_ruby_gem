@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = "A sample Ruby gem for use with Sourcegraph"
   s.authors     = ["Quinn Slack"]
   s.email       = 'sqs@sourcegraph.com'
-  s.files       = ["lib/sample_ruby_gem.rb"]
+  s.files       = Dir["lib/**/*.rb"]
   s.homepage    =
     'https://github.com/sourcegraph/sample_ruby_gem'
   s.license     = 'MIT'
